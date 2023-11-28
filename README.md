@@ -14,17 +14,26 @@ To write a program to find the square root of a number.
 4. Calculate  number = 0.5 * (number + a / number) for 100 iterations.
 5. Return number
 
+## Input:
+![gcd of two number](gcd.png)
+
+
 ## Program:
-```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+```py
+def root(x,b):
+    y=0.5*(x+b/x)
+    if y==x:
+        return y
+    else:
+        return root(y,b)
+b=int(input())
+res=root(b,b)
+print("Square root of the number:",res)
+
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![Alt text](OUTPUT.png)
 
 
 ## Result:
