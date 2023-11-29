@@ -14,8 +14,6 @@ To write a program to find the square root of a number.
 4. Calculate  number = 0.5 * (number + a / number) for 100 iterations.
 5. Return number
 
-## Input:
-![gcd of two number](gcd.png)
 
 
 ## Program:
