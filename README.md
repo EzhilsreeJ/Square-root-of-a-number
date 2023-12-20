@@ -18,6 +18,9 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```py
+#Progrm to Square root of a number
+#Developed by:Ezhil sree J
+#RegisterNumber:23012968
 def root(x,b):
     y=0.5*(x+b/x)
     if y==x:
